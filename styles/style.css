@@ -20,7 +20,7 @@
     color: white;
     border: none;
     padding: 10px 30px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* font family */
@@ -69,5 +69,31 @@ nav {
 
 .hero-logo {
     font-size: 35px;
+}
+
+
+/* webflow section style */
+.webflow {
+    display: flex;
+    padding: 130px 230px;
+    gap: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.webflow-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.webflow-description {
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.webflow-img {
+    border-radius: 48px;
 }
 
