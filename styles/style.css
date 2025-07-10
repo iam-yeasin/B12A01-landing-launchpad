@@ -1,0 +1,73 @@
+
+
+/* browser default gap reduce */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared styls */
+
+.primary-color {
+    color: #4E47FF;
+}
+
+.btn-primary {
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+/* font family */
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+
+/* header styles */
+.header {
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding-top: 50px;
+}
+
+/* banner styles*/
+.banner {
+    text-align: center;
+    margin-top: 350px;
+}
+
+.hero-title {
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.hero-logo {
+    font-size: 35px;
+}
+
