@@ -266,5 +266,35 @@ nav {
     transform: translateY(0);
   }
 
+  /* footer section */
+  footer {
+    text-align: center;
+  }
+
+  footer h1 {
+    font-size: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: #4E47FF;
+  }
+
+  footer p {
+    color: #8987A1;
+  }
+
+  footer ul {
+    color: #8987A1;
+  }
+
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 770px;
+    margin-right: 770px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    list-style: none;
+  }
 
   
