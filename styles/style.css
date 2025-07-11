@@ -145,8 +145,8 @@ nav {
 .review-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 10px;
+    margin-bottom: 100px;
 }
 
 
@@ -172,3 +172,39 @@ nav {
     margin-bottom: 10px;
 }
 
+.reviewer-name {
+    color: #757575;
+}
+.reviewer-date{
+    color: #B3B3B3;
+}
+
+/* webflow-big */
+.webflow-big {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.webflow-bg-color {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.focus-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-btn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.focus-img {
+    border-radius: 50px;
+}
