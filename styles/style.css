@@ -24,29 +24,30 @@
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
-    display: inline-block;      /* importen */
+    display: inline-block;
+    /* importen */
     transform: translateY(-4px);
     transition: transform 0.3s ease;
 }
-  
+
 .btn-primary:hover {
     transform: translateY(0);
 }
-  
+
 
 /* font family */
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
-  
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
 
 /* header styles */
@@ -179,15 +180,16 @@ nav {
 
 .user-review-bg {
     background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .review-title {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.reviewer-date{
+
+.reviewer-date {
     color: #B3B3B3;
 }
 
@@ -213,7 +215,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.focus-sub-title {
+.focus-on-sub-title {
     color: #757575;
     margin-bottom: 10px;
 }
@@ -222,15 +224,16 @@ nav {
     margin-top: 30px;
     margin-bottom: 30px;
     text-decoration: none;
-    display: inline-block;    /* imp for hover transform to work */
+    display: inline-block;
+    /* imp for hover transform to work */
     transform: translateY(-4px);
     transition: transform 0.3s ease;
 }
-  
+
 .focus-btn:hover {
     transform: translateY(0);
 }
-  
+
 
 .focus-img {
     border-radius: 50px;
@@ -240,42 +243,42 @@ nav {
 
 /* connect-option */
 .contact-section {
-  display: flex;
-  gap: 100px;
-  padding: 100px 200px;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 300px;
-  padding-right: 300px;
+    display: flex;
+    gap: 100px;
+    padding: 100px 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .contact-title h1 {
-  font-size: 98px;
-  font-weight: bold;
+    font-size: 98px;
+    font-weight: bold;
 }
 
 .contact-box form {
-  width: 350px;
-  display: flex;
-  flex-direction: column;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-box label {
-  font-size: 14px;
-  font-weight: bold;
-  margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .contact-box input,
 .contact-box textarea {
-  padding: 12px 16px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  font-size: 14px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 14px;
 
-  resize: none;
-  border: 1px solid #D6DDED;
-  outline: none;
+    resize: none;
+    border: 1px solid #D6DDED;
+    outline: none;
 }
 
 .submit-btn {
@@ -290,33 +293,35 @@ nav {
     text-decoration: none;
     transform: translateY(-4px);
     transition: all 0.3s ease;
-  }
-  
-  .submit-btn:hover {
+}
+
+.submit-btn:hover {
     transform: translateY(0);
-  }
+    /*for smooth hover*/
+}
 
-  /* footer section */
-  footer {
+/* footer section */
+footer {
     text-align: center;
-  }
+}
 
-  footer h1 {
+footer h1 {
     font-size: 100px;
     margin-top: 100px;
     margin-bottom: 10px;
     color: #4E47FF;
-  }
+}
 
-  footer p {
+footer p {
     color: #8987A1;
-  }
+}
 
-  footer ul {
+footer ul a {
+    text-decoration: none;
     color: #8987A1;
-  }
+}
 
-  .footer-nav {
+.footer-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -325,6 +330,4 @@ nav {
     margin-top: 20px;
     margin-bottom: 100px;
     list-style: none;
-  }
-
-  
+}
