@@ -19,13 +19,22 @@
 
 .btn-primary {
     background-color: #4E47FF;
+    text-decoration: none;
     font-weight: bold;
     font-size: 16px;
     color: white;
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
+    display: inline-block;      /* importen */
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
 }
+  
+.btn-primary:hover {
+    transform: translateY(0);
+}
+  
 
 /* font family */
 .raleway-font {
@@ -71,12 +80,21 @@ nav {
     margin-bottom: 50px;
 }
 
-.hero-logo {
+.hero-logo a {
     font-size: 35px;
+    text-decoration: none;
+    color: #4E47FF;
+    display: inline-block;
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
+}
+
+.hero-logo a:hover {
+    transform: translateY(0);
 }
 
 
-/* webflow section style */
+/* webflow small section style */
 .webflow {
     display: flex;
     padding: 130px 230px;
@@ -94,7 +112,7 @@ nav {
 .webflow-description {
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .webflow-img {
@@ -171,10 +189,6 @@ nav {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-.reviewer-name {
-    color: #757575;
-}
 .reviewer-date{
     color: #B3B3B3;
 }
@@ -198,15 +212,31 @@ nav {
 
 .focus-title {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
+
+.focus-sub-title {
+    color: #757575;
+    margin-bottom: 10px;
+}
+
 .focus-btn {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    display: inline-block;    /* imp for hover transform to work */
+    transform: translateY(-4px);
+    transition: transform 0.3s ease;
 }
+  
+.focus-btn:hover {
+    transform: translateY(0);
+}
+  
 
 .focus-img {
     border-radius: 50px;
+    margin-top: 5px;
     margin-bottom: 50px;
 }
 
@@ -258,6 +288,8 @@ nav {
     border-radius: 6px;
     font-size: 16px;
     appearance: none;
+    text-align: center;
+    text-decoration: none;
     transform: translateY(-4px);
     transition: all 0.3s ease;
   }
